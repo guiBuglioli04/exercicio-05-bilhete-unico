@@ -1,13 +1,10 @@
-import javax.swing.*;
+import static javax.swing.JOptionPane.*;
+import static java.lang.Integer.parseInt;
 
 public class Main {
     public static void main(String[] args) {
 
-        JOptionPane.showMessageDialog(null,"pepooooooo");
-        String nome = JOptionPane.showInputDialog("Nome: ");
-
-        JOptionPane.showMessageDialog(null,"Seu nome é: "+nome);
-
-
+        Util util = new Util();
+        util.menuPrincipal();
     }
 }

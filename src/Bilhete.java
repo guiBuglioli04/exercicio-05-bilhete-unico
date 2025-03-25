@@ -3,7 +3,7 @@ import java.util.Random;
 public class Bilhete {
     static final double tarifaBase = 5.20;
     long numero;
-    double saldo,valor;
+    double saldo;
     Usuario usuario;
 
     public Bilhete(Usuario usuario){
@@ -22,7 +22,6 @@ public class Bilhete {
 
     //método para consultar o saldo do bilhete
     public double consultarSaldo(){
-
         return saldo;
     }
 
